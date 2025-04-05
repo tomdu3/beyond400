@@ -1,9 +1,8 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+I am [TomDcoding - Tomislav Dukez](https://github.com/tomdu3). I am a software developer and a Python enthusiast. I love to learn new things and explore the world of programming.
 
-::github{repo="saicaca/fuwari"}
+::github{repo="tomdu3"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> - [MerlinAI](https://www.getmerlin.in/)
