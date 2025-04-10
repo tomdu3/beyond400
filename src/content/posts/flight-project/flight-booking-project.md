@@ -5,7 +5,7 @@ description: A few words about my new Full Stack project Flight Booking.
 image: ./promo-flight.png
 tags: [full-stack, project, flight, booking, react, tailwind, express, mongodb, MERN]
 category: project
-draft: true
+draft: false
 lang: en
 ---
 
