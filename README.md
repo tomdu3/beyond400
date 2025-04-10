@@ -1,6 +1,6 @@
-# 🍥Fuwari
+# Beyond 400 Blog 
 
-A static blog template built with [Astro](https://astro.build).
+Special thanks to [fuwari](https://github.com/fuwari) for the original template: astatic blog template built with [Astro](https://astro.build).
 
 [**🖥️ Beyond 400 (Vercel)**](https://beyond400.vercel.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 nbsp;&nbsp;
