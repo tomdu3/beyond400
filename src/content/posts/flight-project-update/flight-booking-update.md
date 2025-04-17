@@ -1,5 +1,5 @@
 ---
-title:  Embracing the Journey: My MERN Stack Light Booking System Project 🚀
+title: Embracing the Journey: My MERN Stack Light Booking System Project 🚀
 published: 2025-04-17
 description: Update on my Flight Booking System project
 image: ./crash.png
