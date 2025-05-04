@@ -1,5 +1,5 @@
 ---
-title: Sending Emails with Django: A Fun Journey Through SMTP 🚀📧
+title: Sending Emails with Django - A Fun Journey Through SMTP 🚀📧
 published: 2025-05-04
 description: 'Sending emails with Django. Using the EmailBackend to send personalized emails.'
 image: 'django_sendmail1.jpeg' 
@@ -7,8 +7,6 @@ tags: ['django', 'email', 'sendgrid', 'gmail', 'smtp', 'python', 'backend', 'ful
 category: backend
 draft: false 
 ---
-
-
 
 The other day, I was working on a Django project that needed **personalized email functionality**. After consulting Django’s excellent documentation, some StackOverflow wisdom, and a few helpful blogs (shoutout to all the devs who share their knowledge! 🙌), I built a **robust email-sending solution**.  
 
