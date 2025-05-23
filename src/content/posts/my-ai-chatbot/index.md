@@ -57,5 +57,7 @@ I’m already brainstorming upgrades:
 - Support for more animation styles (Pixar, Studio Ghibli?)
 
 **Have feedback or ideas?** I’d love to hear from fellow devs who resonate with this! Drop a comment or try it out:
+
 Deployed on Vercel: [https://closeted-coders-ai-chat.vercel.app/](https://closeted-coders-ai-chat.vercel.app/)
+
 GitHub repo: [https://github.com/tomdu3/nextjs-a--chatbot](https://github.com/tomdu3/nextjs-a--chatbot)
