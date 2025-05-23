@@ -56,7 +56,9 @@ I’m already brainstorming upgrades:
 - A "quiet mode" with minimal UI distractions
 - Support for more animation styles (Pixar, Studio Ghibli?)
 
-**Have feedback or ideas?** I’d love to hear from fellow devs who resonate with this! Drop a comment or try it out:
+**Have feedback or ideas?**
+
+I’d love to hear from fellow devs who resonate with this! Drop a comment or try it out:
 
 Deployed on Vercel: [https://closeted-coders-ai-chat.vercel.app/](https://closeted-coders-ai-chat.vercel.app/)
 
