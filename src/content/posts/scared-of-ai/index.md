@@ -21,10 +21,6 @@ The weirdest part? The AI tries to act *human*. It encourages me. It tells me �
 
 ## 🔁 The Loop of Doom
 
-::div{style="width: 50%"}
-![Scared of AI](./scared-ai-1.jpeg)
-::
-
 Two of these interviews didn’t go well. Not because I bombed — because the system glitched out.
 
 In one, the AI kept repeating the same question. Over and over. I answered. It asked again. I rephrased. No feedback, no indication that I was doing anything right or wrong. Just a broken loop. Like Groundhog Day, but with less Bill Murray and more frustration.
