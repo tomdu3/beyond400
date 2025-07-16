@@ -21,7 +21,9 @@ The weirdest part? The AI tries to act *human*. It encourages me. It tells me �
 
 ## 🔁 The Loop of Doom
 
+::div{style="width: 50%"}
 ![Scared of AI](./scared-ai-1.jpeg)
+::
 
 Two of these interviews didn’t go well. Not because I bombed — because the system glitched out.
 
@@ -35,7 +37,9 @@ But nothing happened. No next question. Just me, rambling into the void for 20 s
 
 ## 📬 “Dear \[Name of Applicant]…”
 
+::div{style="width: 50%"}
 ![Scared of AI](./scared-ai-2.jpeg)
+::
 
 The cherry on top? After submitting another application, I got a rejection email **two minutes later**. That’s fast even for AI.
 
@@ -53,7 +57,9 @@ And for candidates, that’s frustrating. Because we’re not just talking to ma
 
 ## 🧠 Final Thoughts from a Human
 
+::div{style="width: 50%"}
 ![Scared of AI](./scared-ai-3.jpeg)
+::
 
 I’m not against AI. I use it. I work with it. But trusting it to fully handle human interaction — like job interviews — feels premature. There's too much nuance, too much context lost in translation.
 
