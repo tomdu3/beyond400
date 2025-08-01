@@ -17,8 +17,6 @@ Traditional CMS platforms often feel like navigating a maze blindfolded. Complex
 
 ## Enter Notion: The Game-Changer 🎯
 
-<!-- ![Notion logo](./notion.jpg) -->
-
 Here's what blew my mind: What if content creators could use a tool they already love? Notion's intuitive interface, combined with their robust API, opened up a world of possibilities. No more explaining complex workflows to clients – they can write, edit, and publish content using the same tool they use for their daily notes!
 
 ## Key Benefits That Made Me a Believer ✨
@@ -29,8 +27,6 @@ Here's what blew my mind: What if content creators could use a tool they already
 - **💰 Cost-Effective**: No expensive CMS licensing fees – just leverage what your clients already use.
 
 ## The Technical Sweet Spot 🛠️
-
-<!-- ![Notion tech stack](./notion1.jpg) -->
 
 My implementation combines FastAPI for the backend with Next.js for the frontend, creating a blazing-fast blog that pulls content directly from Notion databases. The result? A headless CMS that's both powerful and accessible.
 
