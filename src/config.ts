@@ -39,7 +39,11 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
+    {
+      name: 'Home',
+      url: 'https://tomdu3.co.uk',
+      external: true,
+    },
     LinkPreset.Archive,
     LinkPreset.About,
     {
