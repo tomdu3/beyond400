@@ -73,3 +73,13 @@ All commands are run from the root of the project, from a terminal:
 - **`pnpm install` failed during Vercel deployment:**
     - **Problem:** The build process was failing with a "Host key verification failed" error. This was because a transitive dependency, `@emmetio/css-parser`, was being fetched from a forked GitHub repository using an SSH URL (`git@github.com:...`) instead of from the npm registry. Vercel's build environment doesn't have the necessary SSH keys to access the private repository, causing the installation to fail.
     - **Fix:** The issue was resolved by adding a `pnpm.overrides` section to the `package.json` file. This forces `pnpm` to use the official `@emmetio/css-parser` package from the npm registry (version `0.4.0`) instead of the problematic git URL. After updating `package.json`, running `pnpm install` updated the `pnpm-lock.yaml` to reflect this change.
+    - **Alternative Fix:** Another way to solve this is to change the dependency URL in `package.json` to use HTTPS instead of SSH.
+      For example, change:
+      ```json
+      "css-parser": "git@github.com:ramya-rao-a/css-parser.git"
+      ```
+      to
+      ```json
+      "css-parser": "https://github.com/ramya-rao-a/css-parser.git"
+      ```
+      Then, run `pnpm install` to update the `pnpm-lock.yaml` file.
