@@ -59,27 +59,16 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro --help`                 | Get help using the Astro CLI                     |
 
+## Changes to the original repo
+
+*   **Initial Setup and Build Fixes:**
+    *   Resolved build failures related to deprecated auto-generation of collections by explicitly defining the `spec` collection in `src/content/config.ts`.
+    *   Fixed an undefined CSS class `link` in `src/styles/markdown.css` by removing it.
+    *   Addressed missing `title` and `published` frontmatter fields in `src/content/spec/about.md`.
+    *   Resolved Vercel deployment failure caused by `pnpm install` failing to fetch `@emmetio/css-parser` from a private GitHub repository via SSH. This was fixed by adding a `pnpm.overrides` section to `package.json` to force the use of the official npm registry package.
+*   **Navbar Layout Adjustment:**
+    *   Modified the `navBarConfig` in `src/config.ts` to change the "Home" link's `href` from the blog's root to `https://tomdu3.co.uk`, making it an external link.
+
 ## KNOWN ISSUES/BUGS
 
-### Build Failures (Fixed)
-
-- **`npm run build` failed due to two issues:**
-    1.  **Deprecated auto-generation of collections:** A `spec` collection was being auto-generated, which is a deprecated feature. This was fixed by explicitly defining the `spec` collection in `src/content/config.ts`.
-    2.  **Undefined CSS class:** The CSS class `link` was being used in `src/styles/markdown.css` but was not defined, causing a PostCSS error. This was fixed by removing the undefined `link` class.
-    3.  **Missing frontmatter:** After defining the `spec` collection, the build failed again because `src/content/spec/about.md` was missing the required `title` and `published` fields in its frontmatter. This was fixed by adding the required frontmatter to the file.
-
-### Vercel Deployment Failure (Fixed)
-
-- **`pnpm install` failed during Vercel deployment:**
-    - **Problem:** The build process was failing with a "Host key verification failed" error. This was because a transitive dependency, `@emmetio/css-parser`, was being fetched from a forked GitHub repository using an SSH URL (`git@github.com:...`) instead of from the npm registry. Vercel's build environment doesn't have the necessary SSH keys to access the private repository, causing the installation to fail.
-    - **Fix:** The issue was resolved by adding a `pnpm.overrides` section to the `package.json` file. This forces `pnpm` to use the official `@emmetio/css-parser` package from the npm registry (version `0.4.0`) instead of the problematic git URL. After updating `package.json`, running `pnpm install` updated the `pnpm-lock.yaml` to reflect this change.
-    - **Alternative Fix:** Another way to solve this is to change the dependency URL in `package.json` to use HTTPS instead of SSH.
-      For example, change:
-      ```json
-      "css-parser": "git@github.com:ramya-rao-a/css-parser.git"
-      ```
-      to
-      ```json
-      "css-parser": "https://github.com/ramya-rao-a/css-parser.git"
-      ```
-      Then, run `pnpm install` to update the `pnpm-lock.yaml` file.
+*   None currently.
