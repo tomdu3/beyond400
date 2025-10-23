@@ -58,3 +58,12 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm new-post <filename>`          | Create a new post                                |
 | `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro --help`                 | Get help using the Astro CLI                     |
+
+## KNOWN ISSUES/BUGS
+
+### Build Failures (Fixed)
+
+- **`npm run build` failed due to two issues:**
+    1.  **Deprecated auto-generation of collections:** A `spec` collection was being auto-generated, which is a deprecated feature. This was fixed by explicitly defining the `spec` collection in `src/content/config.ts`.
+    2.  **Undefined CSS class:** The CSS class `link` was being used in `src/styles/markdown.css` but was not defined, causing a PostCSS error. This was fixed by removing the undefined `link` class.
+    3.  **Missing frontmatter:** After defining the `spec` collection, the build failed again because `src/content/spec/about.md` was missing the required `title` and `published` fields in its frontmatter. This was fixed by adding the required frontmatter to the file.
