@@ -21,4 +21,10 @@ const postsCollection = defineCollection({
 })
 export const collections = {
   posts: postsCollection,
+  spec: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      published: z.date(),
+    }),
+  }),
 }
