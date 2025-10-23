@@ -1,3 +1,7 @@
+---
+title: "About"
+published: 2025-10-23
+---
 # About
 I am [TomDcoding - Tomislav Dukez](https://github.com/tomdu3). I am a software developer and a Python enthusiast. I love to learn new things and explore the world of programming.
 
