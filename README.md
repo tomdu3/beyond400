@@ -67,3 +67,9 @@ All commands are run from the root of the project, from a terminal:
     1.  **Deprecated auto-generation of collections:** A `spec` collection was being auto-generated, which is a deprecated feature. This was fixed by explicitly defining the `spec` collection in `src/content/config.ts`.
     2.  **Undefined CSS class:** The CSS class `link` was being used in `src/styles/markdown.css` but was not defined, causing a PostCSS error. This was fixed by removing the undefined `link` class.
     3.  **Missing frontmatter:** After defining the `spec` collection, the build failed again because `src/content/spec/about.md` was missing the required `title` and `published` fields in its frontmatter. This was fixed by adding the required frontmatter to the file.
+
+### Vercel Deployment Failure (Fixed)
+
+- **`pnpm install` failed during Vercel deployment:**
+    - **Problem:** The build process was failing with a "Host key verification failed" error. This was because a transitive dependency, `@emmetio/css-parser`, was being fetched from a forked GitHub repository using an SSH URL (`git@github.com:...`) instead of from the npm registry. Vercel's build environment doesn't have the necessary SSH keys to access the private repository, causing the installation to fail.
+    - **Fix:** The issue was resolved by adding a `pnpm.overrides` section to the `package.json` file. This forces `pnpm` to use the official `@emmetio/css-parser` package from the npm registry (version `0.4.0`) instead of the problematic git URL. After updating `package.json`, running `pnpm install` updated the `pnpm-lock.yaml` to reflect this change.
