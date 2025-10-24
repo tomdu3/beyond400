@@ -32,7 +32,7 @@
 		"astro": "^5.15.1",
 		"astro-compress": "^2.3.8",
 		"astro-icon": "^1.1.5",
-		"css-parser": "github:ramya-rao-a/css-parser",
+		"css-parser": "https://github.com/ramya-rao-a/css-parser.git",
 		"hastscript": "^9.0.1",
 		"katex": "^0.16.25",
 		"markdown-it": "^14.1.0",
