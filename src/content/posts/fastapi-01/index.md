@@ -5,7 +5,7 @@ description: 'Setting up a FastAPI project with uv'
 image: 'logo-teal.png'
 tags: [fastapi, python, 30days]
 category: 'coding'
-draft: true
+draft: false
 lang: 'en'
 ---
 
