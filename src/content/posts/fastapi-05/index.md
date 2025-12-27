@@ -1,5 +1,5 @@
 ---
-title: Day 5 of 30 Days of FastAPI - Path and Query Validation — Beyond Type Hinting
+title: Day 5 of 30 Days of FastAPI - Path and Query Validation - Beyond Type Hinting
 published: 2025-12-24
 description: 'Adding constraints and validation to path and query parameters in FastAPI.'
 image: './validation.webp'
