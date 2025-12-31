@@ -54,7 +54,7 @@ async def upload_image(file: UploadFile = File(...)):
     }
 
 ```
-![Form Code](./form-code.webp)
+![Form Code](./form_code.webp)
 
 ### 3. Mixing Forms and Files
 
