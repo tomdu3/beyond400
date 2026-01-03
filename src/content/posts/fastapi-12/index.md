@@ -75,6 +75,7 @@ app.add_middleware(
 * [x] Verified the `X-Process-Time` header appears in the browser's Network tab.
 * [x] Confirmed that the global exception handler from Day 8 still works alongside the middleware.
 
+![swagger middleware](./swagger_middleware.webp)
 ---
 
 ## 📚 Resources
