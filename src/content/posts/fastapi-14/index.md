@@ -1,6 +1,6 @@
 ---
 title: Day 14 of 30 Days of FastAPI - Implementing CRUD — The Heart of Your API
-published: 2026-01-04
+published: 2026-01-05
 description: 'Implementing CRUD operations using SQLAlchemy and Pydantic in FastAPI'
 image: './crud.webp'
 tags: [fastapi, python, 30days]
