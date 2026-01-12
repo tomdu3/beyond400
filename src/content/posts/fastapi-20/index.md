@@ -56,6 +56,7 @@ async def welcome_user(request: Request, user_name: str):
         "index.html", 
         {"request": request, "name": user_name}
     )
+```
 
 ![Index Template](./index_template.webp)
 
