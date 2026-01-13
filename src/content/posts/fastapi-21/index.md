@@ -1,5 +1,5 @@
 ---
-title: Day 21 of 30 Days of FastAPI - Testing Your API — Confidence Through Automation
+title: Day 21 of 30 Days of FastAPI - Testing Your API - Confidence Through Automation
 published: 2026-01-13
 description: 'Learn how to implement automated testing in FastAPI using pytest and TestClient to ensure code reliability and prevent regressions.'
 image: './testing.webp'
