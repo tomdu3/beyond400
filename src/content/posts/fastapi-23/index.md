@@ -1,5 +1,5 @@
 ---
-title: Day 22 of 30 Days of FastAPI - Environment Variables & Pydantic Settings
+title: Day 23 of 30 Days of FastAPI - Environment Variables & Pydantic Settings
 published: 2026-01-15
 description: 'Learn how to manage environment variables and sensitive configuration in FastAPI using Pydantic Settings and .env files for better security and portability.'
 image: './secrets.webp'
