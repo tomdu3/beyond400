@@ -1,7 +1,7 @@
 ---
 title: Day 24 of 30 Days of FastAPI - Refactoring for Scalability with APIRouter
 published: 2026-01-16
-description: 'Learn how to manage environment variables and sensitive configuration in FastAPI using Pydantic Settings and .env files for better security and portability.'
+description: 'Learn how to refactor a monolithic FastAPI application into a modular, scalable architecture using APIRouter, separating concerns into distinct modules for better maintainability.'
 image: './architecture.webp'
 tags: [fastapi, python, 30days]
 category: 'coding'
