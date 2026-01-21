@@ -1,6 +1,6 @@
 ---
 title: Day 27 of 30 Days of FastAPI - Logging & Observability - Watching Your API Breathe
-published: 2026-01-19
+published: 2026-01-20
 description: 'Learn how to implement professional logging in FastAPI to monitor your API and debug issues.'
 image: './logging.webp'
 tags: [fastapi, python, 30days]
