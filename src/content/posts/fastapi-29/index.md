@@ -54,7 +54,7 @@ app = FastAPI(
 )
 ```
 
-![Code Docs](./code-docs.webp)
+![Code Docs](./code_docs.webp)
 
 ### 2. Tag Metadata & Organization
 
