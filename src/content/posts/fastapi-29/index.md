@@ -9,7 +9,7 @@ draft: false
 lang: ''
 ---
 
-On **Day 29**, we are putting the final "polish" on our project. After a short New Year's break... we are moving beyond the default settings to master **Advanced OpenAPI & Documentation**.
+On **Day 29**, we are putting the final "polish" on our project. We are moving beyond the default settings to master **Advanced OpenAPI & Documentation**.
 
 Everyone knows FastAPI for the automatic Swagger UI, but a professional API needs more than just a list of endpoints. Today, we’ll learn how to brand our docs, add detailed descriptions, and explore **ReDoc**—the cleaner, more "reader-friendly" alternative to Swagger.
 So, without further ado, let's dive into the **Developer Experience (DX)**. If another developer uses your API, the documentation is their first impression.
