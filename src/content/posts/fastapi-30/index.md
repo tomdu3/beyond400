@@ -73,6 +73,8 @@ A production-ready inventory management API built during a 30-day deep dive into
 
 ```
 
+[Repo of the Project](https://github.com/tomdu3/my-fastapi-app)
+
 The 30 days are over, but the learning isn't. It's only the beginning. My goal was to get through the FastAPI step by step and go through the documentation, the manual and the examples and acquire a solid understanding of the framework. Now, I can start building my own projects and learning new things.
 
 There are some things that are worthy of some attention:
