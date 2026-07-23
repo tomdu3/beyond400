@@ -33,6 +33,7 @@ Not every day is easy, but the growth in my confidence
 and problem-solving ability makes it all worth it.
 
 ```
+![GitHub Streak](./streak.png)
 
 Technically, I’ve been leaning heavily into **JavaScript** recently to broaden my full-stack capabilities, though **Python** remains my trusty go-to for heavy-lifting and algorithmic problem-solving.
 
