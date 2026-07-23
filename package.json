@@ -28,7 +28,6 @@
 		"@iconify/svelte": "^4.2.0",
 		"@swup/astro": "^1.7.0",
 		"@tailwindcss/typography": "^0.5.19",
-		"astro": "^5.15.1",
 		"astro-compress": "^2.3.8",
 		"astro-icon": "^1.1.5",
 		"css-parser": "https://github.com/ramya-rao-a/css-parser.git",
@@ -64,6 +63,7 @@
 		"@types/markdown-it": "^14.1.2",
 		"@types/mdast": "^4.0.4",
 		"@types/sanitize-html": "^2.16.0",
+		"astro": "^5.18.2",
 		"postcss-import": "^16.1.1",
 		"postcss-nesting": "^13.0.2"
 	},
