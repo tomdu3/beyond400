@@ -28,7 +28,6 @@ I’ve wrapped up the **Google AI Essentials** course, completed the **INCO Acad
 In the meantime, my daily coding streak continues uninterrupted. Today marks **872 consecutive days** of writing code and pushing commits to GitHub.
 
 ```
-
 872 days of continuous code.
 Not every day is easy, but the growth in my confidence
 and problem-solving ability makes it all worth it.
@@ -55,5 +54,8 @@ It was an incredible feeling to have months of consistent work validated by peer
 Building momentum, one commit and one project at a time. On to the next challenge!
 
 If you wish to check out my project, here's the link: [https://github.com/tomdu3/fishin-generator/](https://github.com/tomdu3/fishin-generator/)
-Here's the link to the YouTube video of the first day presentations (mine is the second one): <https://www.youtube.com/live/qm53wpJB3fg>, and the awards video: <https://youtube.com/live/DXXj1eSHR-w>
+
+Here's the link to the YouTube video of the first day presentations (mine is the second one):
+1. [YT: 2nd INCO Capstone Championship Presentations](https://www.youtube.com/live/qm53wpJB3fg)
+2. [YT: 2nd INCO Capstone Championship Awards](https://youtube.com/live/DXXj1eSHR-w)
 
