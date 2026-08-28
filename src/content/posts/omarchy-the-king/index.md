@@ -2,14 +2,14 @@
 title: Omarchy the King
 published: 2026-08-28
 description: "My experience with Omarchy, the king of Linux distros. I didn't plan to love it."
-image: './omarchy.png'
-tags: ['linux', 'development', 'arch', 'omarchy', 'coding', 'ai', 'hyprland']
-category: 'os'
-draft: false 
-lang: 'en'
+image: "./omarchy.png"
+tags: ["linux", "development", "arch", "omarchy", "coding", "ai", "hyprland"]
+category: "os"
+draft: false
+lang: "en"
 ---
 
-Hello, I'm back! I’ve had a wonderful break away from the blog, and I hope life has been treating you just as well. 
+Hello, I'm back! I’ve had a wonderful break away from the blog, and I hope life has been treating you just as well.
 
 I recently completed the [Intro to Programming](https://codeyourfuture.io/courses/introduction-to-programming) course with [CodeYourFuture](https://codeyourfuture.io/). That adventure alone deserves an entire novel, but I'll save those war stories for another day. Right now, I need to talk about something that has completely hijacked my brain for the past 24 hours: Arch Linux—or more specifically, **Omarchy**.
 
@@ -17,18 +17,18 @@ I recently completed the [Intro to Programming](https://codeyourfuture.io/course
 
 ## The Confessions of a Serial Distro Hopper
 
-I’ve been using Linux since the 1990s—back when dinosaurs roamed the earth and you had maybe four distributions to choose from: Red Hat, SuSE, Debian, Slackware, and a mountain of compilation errors. 
+I’ve been using Linux since the 1990s—back when dinosaurs roamed the earth and you had maybe four distributions to choose from: Red Hat, SuSE, Debian, Slackware, and a mountain of compilation errors.
 
 Those were the days when the community was intimate, and installing an OS felt like defusing a bomb in the dark while reading a man page printed on stone tablets. You had to know what you were doing, or at least pretend really convincingly while breaking your X11 config.
 
-I remember those days fondly. But if I’m being completely honest with myself: I am a chronic, incurable distro hopper. If an operating system exists, there’s a 98% chance I’ve booted it on my machine. 
+I remember those days fondly. But if I’m being completely honest with myself: I am a chronic, incurable distro hopper. If an operating system exists, there’s a 98% chance I’ve booted it on my machine.
 
 Here is a brief, mildly embarrassing tour of my distro hopping history:
 
 - **Red Hat Linux** — The OG gateway drug.
 - **SuSE** — The friendly green chameleon.
 - **Mandrake / Mandriva** — Ah, the golden era of "Linux for normal humans" before Ubuntu took over the world.
-- **Slackware (College Linux, Jedi Edition)** — Because who *didn't* want to feel like a terminal-wielding Unix wizard?
+- **Slackware (College Linux, Jedi Edition)** — Because who _didn't_ want to feel like a terminal-wielding Unix wizard?
 - **Knoppix** — Absolute witchcraft. The first live CD that could boot up and play DVDs straight out of the box!
 - **Ubuntu** — We had a long, happy marriage… until Canonical introduced the Unity desktop and broke my heart.
 - **Linux Mint** — The rebound relationship that actually treated me with respect.
@@ -39,26 +39,26 @@ Here is a brief, mildly embarrassing tour of my distro hopping history:
 - **Arch Linux (Vanilla)** — Absolute perfection, provided you have 40 hours a week to handcraft your own desktop environment from scratch.
 - **NixOS** — Mind-blowing declarative wizardry, until you realize you need an unmaintained package and have to write a PhD thesis in Nix expression language just to get it running.
 - **CachyOS** — Blazingly fast, finely tuned, and great fun… but my wanderlust struck again.
-- **Pop!_OS** — Loved Rust, loved COSMIC, but my graphics card and my Neovim config staged a full-blown mutiny against it.
-- **Omarchy** — I was skeptical. Previous versions didn't quite click. But *Quattro*? Quattro is something else entirely. Wow.
+- **Pop!\_OS** — Loved Rust, loved COSMIC, but my graphics card and my Neovim config staged a full-blown mutiny against it.
+- **Omarchy** — I was skeptical. Previous versions didn't quite click. But _Quattro_? Quattro is something else entirely. Wow.
 
 ---
 
-## The Pop!_OS Meltdown: My Final Breaking Point
+## The Pop!\_OS Meltdown: My Final Breaking Point
 
-Before finding Omarchy, I had settled into Pop!_OS. For about a month, things went swimmingly. Sure, I had to pay the standard Wayland tax and wrestle with GPU compatibility so my machine wouldn't spontaneously combust whenever I shared my screen on Slack or edited code with Neovim in Kitty terminal. But I made it work.
+Before finding Omarchy, I had settled into Pop!\_OS. For about a month, things went swimmingly. Sure, I had to pay the standard Wayland tax and wrestle with GPU compatibility so my machine wouldn't spontaneously combust whenever I shared my screen on Slack or edited code with Neovim in Kitty terminal. But I made it work.
 
-Then, out of nowhere, Neovim entered a haunted phase. 
+Then, out of nowhere, Neovim entered a haunted phase.
 
-I’m not exaggerating. My fuzzy finder developed sentience and kept opening itself randomly. In the Tree-sitter file view, folders refused to stay open—the second I released a key, they slammed shut like startled clams. 
+I’m not exaggerating. My fuzzy finder developed sentience and kept opening itself randomly. In the Tree-sitter file view, folders refused to stay open—the second I released a key, they slammed shut like startled clams.
 
-I reinstalled the entire OS. Same issue. I wiped my config and ran completely vanilla Neovim. *Still possessed.* Curiously, it only worked properly inside Cosmic-Terminal. 
+I reinstalled the entire OS. Same issue. I wiped my config and ran completely vanilla Neovim. _Still possessed._ Curiously, it only worked properly inside Cosmic-Terminal.
 
-Defeated and exhausted, I threw my hands in the air and said, *"That's it. I'm crawling back to Ubuntu."*
+Defeated and exhausted, I threw my hands in the air and said, _"That's it. I'm crawling back to Ubuntu."_
 
-But right as I went to grab the ISO, the tech universe intervened. YouTube and tech blogs were suddenly overflowing with news about Omarchy. And DHH (David Heinemeier Hansson)—the famously opinionated Ruby on Rails mastermind behind it—was everywhere, preaching the gospel of a modern, keyboard-first desktop and AI first Operating System. 
+But right as I went to grab the ISO, the tech universe intervened. YouTube and tech blogs were suddenly overflowing with news about Omarchy. And DHH (David Heinemeier Hansson)—the famously opinionated Ruby on Rails mastermind behind it—was everywhere, preaching the gospel of a modern, keyboard-first desktop and AI first Operating System.
 
-That particular brand of unapologetic, hyper-opinionated crazy? *That is 100% my kind of crazy.* 
+That particular brand of unapologetic, hyper-opinionated crazy? _That is 100% my kind of crazy._
 
 I said: let's do it.
 
@@ -68,9 +68,9 @@ I said: let's do it.
 
 ![Omarchy fastfetch](./omarchy_fastfetch.png)
 
-If my memory serves me right, previous versions of Omarchy required you to manually install Arch first, survive the terminal gauntlet, and then run an install script while praying to the package gods. 
+If my memory serves me right, previous versions of Omarchy required you to manually install Arch first, survive the terminal gauntlet, and then run an install script while praying to the package gods.
 
-This time around? You just grab the ISO, flash it, and install it like any modern distro. 
+This time around? You just grab the ISO, flash it, and install it like any modern distro.
 
 The entire process took less than 5 minutes. A clean welcome screen, a couple of intuitive clicks, and boom—a fully functional, finely tuned Arch Linux workstation ready to rock. And boy, is it gorgeous.
 
@@ -85,11 +85,11 @@ The entire process took less than 5 minutes. A clean welcome screen, a couple of
 
 ## The First AI Test: Fixing "Show Me the Key"
 
-To test the system's capabilities, I installed [OpenCode](https://github.com/opencode-dev/opencode) via Omarchy’s AI-powered package installer. The setup was effortless. I routed it through [OpenRouter](https://openrouter.ai/) and chose [Big Pickle](https://big-pickle.ai/) as my AI model (a humble tribute to Python, of course). 
+To test the system's capabilities, I installed [OpenCode](https://github.com/opencode-dev/opencode) via Omarchy’s AI-powered package installer. The setup was effortless, and I chose [Big Pickle](https://pi.dev/models/opencode/big-pickle) as my AI model (a humble tribute to Python, of course).
 
-Then came the real challenge. 
+Then came the real challenge.
 
-Since I do programming tutoring, displaying my keystrokes on-screen—especially while navigating Neovim—is an absolute necessity. My go-to tool for this has always been [Show me the Key](https://github.com/AlynxZhou/showmethekey). 
+Since I do programming tutoring, displaying my keystrokes on-screen—especially while navigating Neovim—is an absolute necessity. My go-to tool for this has always been [Show me the Key](https://github.com/AlynxZhou/showmethekey).
 
 Historically, keystroke visualizers and Wayland/Hyprland compositors have a strained relationship. Unsurprisingly, it failed to work out of the box.
 
@@ -110,5 +110,3 @@ The best part? It didn't just silently patch files and leave me in the dark. It 
 Omarchy Quattro took a cynical, battle-hardened distro hopper and turned me into an absolute believer in under 24 hours. If you love keyboard-driven workflows, tiling window managers, and an operating system that actually respects your intelligence while saving you hours of tinkering, give it a spin.
 
 That’s all for now—see you very soon with more updates from the Arch side!
-
-
