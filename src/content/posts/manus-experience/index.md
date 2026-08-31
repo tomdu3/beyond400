@@ -2,7 +2,7 @@
 title: How I Used Jupyter + Manus AI to Automate Fundraiser Data Entry from Google Fit
 published: 2026-08-31
 description: "Step-by-step guide: export Google Fit data, clean it with a Jupyter notebook, and let Manus AI enter 31 daily entries into a Children with Cancer UK fundraiser."
-image: "./children_with_cancer_10m.png"
+image: "./Manus-AI-general-AI-agent.webp"
 tags:
   [
     "ai",
@@ -23,7 +23,7 @@ I signed up for the Children with Cancer UK **10 Mile Challenge** — walk miles
 
 So I automated it. Here's the exact step-by-step process, from raw Google Fit export to a fully populated fundraiser page — using a **Jupyter notebook** for data prep and **Manus AI** for the web form entry.
 
----
+## ![Children with Cancer UK fundraiser page](./children_with_cancer_10m.png)
 
 ### 1. Export Your Google Fit Data
 
