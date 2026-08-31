@@ -23,8 +23,9 @@ I signed up for the Children with Cancer UK **10 Mile Challenge** — walk miles
 
 So I automated it. Here's the exact step-by-step process, from raw Google Fit export to a fully populated fundraiser page — using a **Jupyter notebook** for data prep and **Manus AI** for the web form entry.
 
-## ![Children with Cancer UK fundraiser page](./children_with_cancer_10m.png)
+![Children with Cancer UK fundraiser page](./children_with_cancer_10m.png)
 
+## 👣 Steps
 ### 1. Export Your Google Fit Data
 
 Head to [Google Takeout](https://takeout.google.com/) and export your **Fit** data. You'll get a zip file containing daily CSV files — one per day — with columns for steps, heart rate, calories, distance, oxygen stats, and more.
@@ -174,7 +175,7 @@ After all 31 entries were posted, the live Activity challenge tracker displayed 
 | Highest day         | 20,833 steps (5 August) |
 | Lowest day          | 6,854 steps (31 August) |
 
-## ![Final result](./children_with_cancer.jpeg)
+![Final result](./children_with_cancer.jpeg)
 
 ## 🛠️ What You Need to Replicate This
 
